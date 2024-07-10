@@ -2,4 +2,5 @@ testing testing swoooosh
 line 2 im doing number 9. step 4 direct github edit then pulling it from local.
 line 3 after passing canvas: experiment time, practicing pull,push,commit and add commands
 line 4 practice pull push
-line 5 push from local to github 
+line 5 push from local to github
+line 6 tulog na haha
