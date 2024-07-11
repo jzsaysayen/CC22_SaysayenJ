@@ -1,0 +1,26 @@
+SHORTCUT KEYS
+Tips: installers- winget or choco
+- Windows logo key + PrtScn: Takes a screenshot
+- Windows logo key + Up arrow: Maximizes a window
+- Windows logo key + Tab: Opens Task view
+- Windows logo key + X: Opens the Quick Link menu
+- Windows logo key + D: Displays and hides the desktop
+- Windows logo key + L: Locks the computer
+- Windows logo key + G: Opens the Game bar
+- Windows logo key + H: Opens the Share sidebar
+- Windows logo key + I: Opens the Settings menu
+- Windows logo key + K: Opens the Connect sidebar
+- Windows logo key + O: Locks screen orientation
+- Windows logo key + P: Opens presentation or projection sidebar
+- Windows logo key + R: Opens the Run window
+- Windows logo key + U: Opens Ease of Access center
+- Windows logo key + W: Opens the Windows Ink Workspace
+- Windows logo key + (+) or (-): Zooms in and out with magnifier
+- Windows logo key + Esc: Exits magnifier
+- Windows logo key + S: Opens search
+- Windows logo key + Shift + S: Takes a screenshot of part of the screen
+- Windows logo key + T: Cycles through apps on the taskbar
+- Windows logo key + V: Opens the clipboard
+- Windows logo key + period (.): Opens emoji panel
+- Windows logo key + comma (,): Temporarily peeks at the desktop
+- Windows logo key + Pause: Displays the System Properties dialog box
