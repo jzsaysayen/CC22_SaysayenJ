@@ -1,0 +1,36 @@
+MS Dos Command Reference
+
+Directory Navigation:
+
+- CD *directory* - Change directory to the specified directory.
+- CD.. - Move up one level to the parent directory.
+- DIR - List the contents of the current directory.
+- DIR /S - List all files and subdirectories recursively.
+
+File Management:
+
+- COPY *source* *destination* - Copy a file from the source location to the destination.
+- DEL *filename* - Delete a file.
+- REN *oldname* *newname* - Rename a file.
+- MD *directoryname* - Create a new directory.
+- RD *directoryname* - Remove an empty directory.
+
+File Viewing and Manipulation:
+
+- TYPE *filename* - Display the contents of a text file.
+- EDIT *filename* - Open a text file for editing.
+- MOVE *source* *destination* - Move a file from the source location to the destination.
+- ATTRIB *filename* - View or change the attributes of a file (e.g., read-only, hidden).
+
+Miscellaneous:
+
+- CLS - Clear the screen.
+- HELP - Display a list of available MS-DOS commands and brief descriptions.
+- EXIT - Quit the MS-DOS command prompt and return to Windows.
+
+Tips and Tricks:
+
+- Use quotes ("") around file or directory names with spaces.
+- Wildcards (*) can be used for batch operations (e.g., DEL *.txt deletes all text files).
+- Pressing Tab auto-completes directory and file names.
+- Use the up and down arrow keys to navigate through command history.
