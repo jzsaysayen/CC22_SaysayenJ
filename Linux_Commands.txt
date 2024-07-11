@@ -1,0 +1,115 @@
+1. File and Directory Management
+    Create nested directories:
+    - mkdir -p project/src/utils
+
+    Navigate directories:
+    - cd project/src/utils
+
+    Move back two directories:
+    - cd ../..
+
+    Rename a directory:
+    - mv src source
+
+    Delete a directory:
+    - rm -r source
+
+2. File Operations
+    Create multiple files:
+    - touch file1.txt file2.txt file3.txt
+
+    Copy a file:
+    - cp file1.txt copy_of_file1.txt
+
+    Move a file:
+    - mv file2.txt ../file2_moved.txt
+
+    Delete a file:
+    - rm file3.txt
+
+3. Viewing and Searching File Content
+    Display the contents of a file:
+    -cat file1.txt
+
+    View the first 10 lines of a file:
+    -head file1.txt
+
+    View the last 10 lines of a file:
+    - tail file1.txt
+
+    Search for a string within a file:
+    - grep "search_string" file1.txt
+
+    View a file with pagination:
+    - less file1.txt
+
+4. File Permissions and Ownership
+    Check file permissions:
+    - ls -l file1.txt
+
+    Change file permissions:
+    - chmod 644 file1.txt
+
+    Make a file executable:
+    - chmod +x script.sh
+
+    Change file ownership (requires superuser privileges):
+    - sudo chown newowner:newgroup file1.txt
+
+5. Networking Commands
+    Display network configuration:
+    - ifconfig
+
+    Ping a server:
+    - ping www.google.com
+
+    Check open ports:
+    - netstat -tuln
+
+    Check network statistics:
+    - netstat -s
+
+6. Disk Usage and Process Management
+    Check disk usage:
+    - df -h
+
+    Check directory size:
+    - du -sh /path/to/directory
+
+    List running processes:
+    - ps aux
+
+    Kill a process by PID:
+    - kill -9 PID
+
+    Monitor system performance:
+    - top
+​
+7. Archiving and Compression
+    Create a tar archive:
+    - tar -cvf archive.tar file1.txt file2.txt
+
+    Extract a tar archive:
+    - tar -xvf archive.tar
+
+    Create a compressed tar archive:
+    - tar -czvf archive.tar.gz file1.txt file2.txt
+
+    Extract a compressed tar archive:
+    - tar -xzvf archive.tar.gz
+​
+8. Package Management
+    Search for a package:
+    - apt search package_name
+
+    Install a package:
+    - sudo apt install package_name
+
+    Remove a package:
+    - sudo apt remove package_name
+
+    Update package lists:
+    - sudo apt update
+
+    Upgrade installed packages:
+    - sudo apt upgrade
