@@ -1,0 +1,52 @@
+Basic Navigation
+- Ctrl + Shift + P: Open the Command Palette.
+- Alt + Shift + D: Duplicate the focused tab.
+- Ctrl + `: Open a new tab with the default profile.
+- Ctrl + Shift + `: Open a new tab with a custom profile (opens the profile selection dropdown).
+
+Tab Management
+- Ctrl + Tab: Move to the next tab.
+- Ctrl + Shift + Tab: Move to the previous tab.
+- Ctrl + Shift + W: Close the focused tab.
+- Ctrl + W: Close the focused pane (if panes are being used).
+
+Pane Management
+- Alt + Shift + : Split the current pane vertically.
+- Alt + Shift + -: Split the current pane horizontally.
+- Alt + Arrow Key: Move focus between panes.
+- Ctrl + Shift + X: Maximize/restore the focused pane.
+
+Copy and Paste
+
+- Ctrl + Shift + C: Copy selected text.
+- Ctrl + Shift + V: Paste from clipboard.
+
+Command and Cursor Control
+
+- Ctrl + Shift + F: Find text within the terminal buffer.
+- Ctrl + Up/Down Arrow: Scroll up/down in the terminal buffer.
+- Ctrl + Shift + Up/Down Arrow: Resize the pane.
+- Alt + Enter: Toggle full screen.
+
+Zoom and Font Control
+
+- Ctrl + =: Increase font size (zoom in).
+- Ctrl + -: Decrease font size (zoom out).
+- Ctrl + 0: Reset font size to default.
+
+Miscellaneous
+
+- Ctrl + Shift + ,: Open Settings (defaults.json file for settings configuration).
+- Ctrl + Shift + Space: Open a dropdown menu for new tabs.
+
+Tab and Profile Switching
+
+- Ctrl + 1-9: Switch to the tab at the specified position (1 through 9).
+- Ctrl + Shift + 1-9: Open a new tab with the profile at the specified position in your profiles list.
+
+Additional Shortcuts (PowerShell Specific)
+
+- Ctrl + A: Select all text in the current line.
+- Ctrl + E: Move the cursor to the end of the line.
+- Ctrl + U: Clear the current command line.
+- Ctrl + R: Search through the command history.
