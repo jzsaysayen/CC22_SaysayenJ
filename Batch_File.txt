@@ -1,0 +1,133 @@
+Basic Commands
+Echo: Prints text to the command line.
+- echo Hello, World!
+
+​
+Use @echo off at the beginning to prevent commands from being displayed as they are executed.
+Rem: Adds comments to your batch file.
+- rem This is a comment
+
+​
+Pause: Pauses the execution and waits for the user to press any key.
+- pause
+
+​
+Cls: Clears the command prompt screen.
+- cls
+
+​
+Variables: Used to store data.
+- set myVar=Hello
+- echo %myVar%
+
+​
+Control Structures
+- If: Conditional statements.
+- if %myVar%==Hello echo The variable is Hello
+- if exist myfile.txt echo myfile.txt exists
+
+​
+For: Loop through a set of files or a list of items.
+- for %%i in (1 2 3) do echo %%i
+- for %%f in (*.txt) do echo %%f
+
+​
+Goto: Jump to a labeled section of the batch file.
+- goto myLabel
+- :myLabel
+- echo You are here
+
+​
+Call: Call another batch file or a subroutine within the same file.
+- call anotherbatch.bat
+- call :mySubroutine
+- :mySubroutine
+- echo In subroutine
+- goto :eof
+
+​
+Choice: Prompt the user to make a choice.
+- choice /c yn /m "Do you want to continue? (y/n)"
+- if errorlevel 2 goto no
+- if errorlevel 1 goto yes
+
+- :yes
+- echo Yes chosen
+- oto end
+
+- :no
+- echo No chosen
+
+- :end
+
+​
+Advanced Topics
+
+Errorlevel: Check the exit code of the last executed command.
+- xcopy source destination
+- if errorlevel 1 echo Copy failed
+
+​
+Redirection: Redirect the output to a file or another command.
+- echo Hello > output.txt
+- dir > directory_list.txt
+- command 2> error_log.txt
+
+​
+Piping: Use the output of one command as the input to another.
+- dir | find "txt"
+
+​
+Nesting Loops and If Statements: Complex logic structures.
+- for %%i in (*.txt) do (
+-     if %%i==special.txt (
+-         echo Found special file: %%i
+-     )
+- )
+
+​
+Functions: Use labels and goto to simulate functions.
+- call :myFunction arg1 arg2
+- goto :eof
+
+- :myFunction
+- set arg1=%1
+- set arg2=%2
+- echo Arguments are %arg1% and %arg2%
+- goto :eof
+
+
+Advanced Topics
+- Errorlevel: Check the exit code of the last executed command.
+- xcopy source destination
+- if errorlevel 1 echo Copy failed
+
+
+Redirection: Redirect the output to a file or another command.
+- echo Hello > output.txt
+- dir > directory_list.txt
+- command 2> error_log.txt
+
+
+Piping: Use the output of one command as the input to another.
+- dir | find "txt"
+
+​
+Nesting Loops and If Statements: Complex logic structures.
+- for %%i in (*.txt) do (
+-     if %%i==special.txt (
+-         echo Found special file: %%i
+-     )
+- )
+
+​
+Functions: Use labels and goto to simulate functions.
+- call :myFunction arg1 arg2
+- goto :eof
+
+- :myFunction
+- set arg1=%1
+- set arg2=%2
+- echo Arguments are %arg1% and %arg2%
+- goto :eof
+
