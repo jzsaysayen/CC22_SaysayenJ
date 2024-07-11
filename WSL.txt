@@ -1,0 +1,36 @@
+Installation
+1. Enable WSL: Enabling WSL from PowerShell.
+    - Open PowerShell as Administrator.
+    - Run the command: `wsl --install`.
+    
+2. Set WSL Version: Setting WSL version to 2.
+    - `wsl --set-default-version 2` to set WSL 2 as the default.
+    
+3. Install a Linux Distribution: Installing a Linux distribution from the Microsoft Store.
+    - Available on the Microsoft Store (e.g., Ubuntu, Debian, Kali Linux).
+    - Example: `wsl --install -d Ubuntu`.
+
+Basic Commands
+- List Installed Distributions: `wsl -l -v`
+- Set Default Distribution: `wsl --set-default <distribution_name>`
+- Run Specific Distribution: `wsl -d <distribution_name>`
+- Update WSL Kernel: `wsl --update`
+
+Using WSL
+- Accessing the Linux Shell: Accessing the Linux shell from Windows Terminal.
+    - Open Windows Terminal or Command Prompt.
+    - Type `wsl` to open the default distribution's shell.
+    
+- File System Access: Accessing the WSL file system from Windows File Explorer.
+    - Linux file system is located at `\\\\wsl$\\<distro_name>` in Windows File Explorer.
+    - Windows files can be accessed from Linux at `/mnt/<drive_letter>`.
+    
+Networking in WSL
+- Localhost Forwarding: WSL 2 supports localhost forwarding, allowing network applications running on WSL to be accessed via `localhost` in Windows.
+- Accessing Windows Network: WSL can interact with Windows network interfaces, allowing use of internet and local network resources.
+
+Troubleshooting
+- Common Issues:
+    - Check WSL version: `wsl -l -v`.
+    - Ensure virtualization is enabled in the BIOS.
+    - Use `dmesg` and `syslog` for Linux side troubleshooting.
